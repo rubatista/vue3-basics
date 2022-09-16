@@ -1,0 +1,28 @@
+{
+  "assignments":[
+    {
+      "name": "Learn Vue.js", 
+      "complete": false, 
+      "id": 1, 
+      "tag": "javascript"
+    },
+    {
+      "name": "Learn Pest", 
+      "complete": false, 
+      "id": 2, 
+      "tag": "php"
+    },
+    {
+      "name": "Learn Docker", 
+      "complete": false, 
+      "id": 3, 
+      "tag": "service"
+    },
+    {
+      "name": "Learn Laravel", 
+      "complete": true, 
+      "id": 4, 
+      "tag": "php"
+    }
+  ]
+}

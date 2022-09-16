@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Episode 1: Basics</title>
+    <script src="https://unpkg.com/vue@3"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p>
+        <input type="text" v-model="greeting">
+      </p>
+      {{greeting}} {{greeting.length}}
+    </div>
+
+    <script>
+      Vue.createApp({
+        data(){
+        return{
+          greeting: 'hello world'
+        };
+      },
+      mounted(){
+        setTimeout(() =>{
+          this.greeting = 'Changed';
+        }, 3000);
+      }
+      }).mount('#app');
+    </script>
+  </body>
+</html>
