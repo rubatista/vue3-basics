@@ -11,7 +11,7 @@ export default{
       <h2 class="font-bold mb-2">
         {{ title }} <span>({{assignments.length}})</span>
       </h2>
-
+      
       <button 
         v-show="canHide" 
         @click="$emit('hideTogle')"
